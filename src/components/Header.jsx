@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/SmartClientLogo.png';
 
 const Header = () => {
   return (
     <header className="bg-blue-600 text-white p-4 flex justify-between items-center">
       <div className="flex items-center space-x-4">
         <img
-          src="/SmartClientLogo.png"
+          src="/SmartclientLogo.png"
           alt="SmartClient Logo"
           className="h-10"
         />
-
         <h1 className="text-xl font-bold">SmartClient CRM</h1>
       </div>
       <Link to="/clients">
