@@ -9,7 +9,9 @@ const Header = () => {
         <img
           src="/SmartClientLogo.png"
           alt="SmartClient Logo"
+          className="h-10"
         />
+
         <h1 className="text-xl font-bold">SmartClient CRM</h1>
       </div>
       <Link to="/clients">
